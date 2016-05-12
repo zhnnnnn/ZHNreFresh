@@ -15,6 +15,9 @@
 		CD179A7F1CE4711200A331CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD179A7D1CE4711200A331CE /* LaunchScreen.storyboard */; };
 		CD179A8A1CE4711200A331CE /* ZHNreFreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179A891CE4711200A331CE /* ZHNreFreshTests.m */; };
 		CD179A951CE4711200A331CE /* ZHNreFreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179A941CE4711200A331CE /* ZHNreFreshUITests.m */; };
+		CD179AA41CE4715100A331CE /* ZHNceshiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179AA31CE4715100A331CE /* ZHNceshiVC.m */; };
+		CD179AA71CE4721200A331CE /* UIScrollView+ZHNfresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179AA61CE4721200A331CE /* UIScrollView+ZHNfresh.m */; };
+		CD179AAA1CE472FB00A331CE /* zhnFreshHeadrView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179AA91CE472FB00A331CE /* zhnFreshHeadrView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CD179A901CE4711200A331CE /* ZHNreFreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNreFreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD179A941CE4711200A331CE /* ZHNreFreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNreFreshUITests.m; sourceTree = "<group>"; };
 		CD179A961CE4711200A331CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD179AA21CE4715100A331CE /* ZHNceshiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNceshiVC.h; sourceTree = "<group>"; };
+		CD179AA31CE4715100A331CE /* ZHNceshiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNceshiVC.m; sourceTree = "<group>"; };
+		CD179AA51CE4721200A331CE /* UIScrollView+ZHNfresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZHNfresh.h"; sourceTree = "<group>"; };
+		CD179AA61CE4721200A331CE /* UIScrollView+ZHNfresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZHNfresh.m"; sourceTree = "<group>"; };
+		CD179AA81CE472FB00A331CE /* zhnFreshHeadrView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhnFreshHeadrView.h; sourceTree = "<group>"; };
+		CD179AA91CE472FB00A331CE /* zhnFreshHeadrView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhnFreshHeadrView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				CD179A731CE4711200A331CE /* AppDelegate.m */,
 				CD179A751CE4711200A331CE /* ViewController.h */,
 				CD179A761CE4711200A331CE /* ViewController.m */,
+				CD179AA21CE4715100A331CE /* ZHNceshiVC.h */,
+				CD179AA31CE4715100A331CE /* ZHNceshiVC.m */,
+				CD179AA81CE472FB00A331CE /* zhnFreshHeadrView.h */,
+				CD179AA91CE472FB00A331CE /* zhnFreshHeadrView.m */,
+				CD179AA51CE4721200A331CE /* UIScrollView+ZHNfresh.h */,
+				CD179AA61CE4721200A331CE /* UIScrollView+ZHNfresh.m */,
 				CD179A781CE4711200A331CE /* Main.storyboard */,
 				CD179A7B1CE4711200A331CE /* Assets.xcassets */,
 				CD179A7D1CE4711200A331CE /* LaunchScreen.storyboard */,
@@ -270,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD179AA71CE4721200A331CE /* UIScrollView+ZHNfresh.m in Sources */,
+				CD179AA41CE4715100A331CE /* ZHNceshiVC.m in Sources */,
 				CD179A771CE4711200A331CE /* ViewController.m in Sources */,
+				CD179AAA1CE472FB00A331CE /* zhnFreshHeadrView.m in Sources */,
 				CD179A741CE4711200A331CE /* AppDelegate.m in Sources */,
 				CD179A711CE4711200A331CE /* main.m in Sources */,
 			);
