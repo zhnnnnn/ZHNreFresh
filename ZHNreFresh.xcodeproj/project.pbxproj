@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD179A711CE4711200A331CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179A701CE4711200A331CE /* main.m */; };
+		CD179A741CE4711200A331CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179A731CE4711200A331CE /* AppDelegate.m */; };
+		CD179A771CE4711200A331CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179A761CE4711200A331CE /* ViewController.m */; };
+		CD179A7A1CE4711200A331CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD179A781CE4711200A331CE /* Main.storyboard */; };
+		CD179A7C1CE4711200A331CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD179A7B1CE4711200A331CE /* Assets.xcassets */; };
+		CD179A7F1CE4711200A331CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD179A7D1CE4711200A331CE /* LaunchScreen.storyboard */; };
+		CD179A8A1CE4711200A331CE /* ZHNreFreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179A891CE4711200A331CE /* ZHNreFreshTests.m */; };
+		CD179A951CE4711200A331CE /* ZHNreFreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD179A941CE4711200A331CE /* ZHNreFreshUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD179A861CE4711200A331CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD179A641CE4711200A331CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD179A6B1CE4711200A331CE;
+			remoteInfo = ZHNreFresh;
+		};
+		CD179A911CE4711200A331CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD179A641CE4711200A331CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD179A6B1CE4711200A331CE;
+			remoteInfo = ZHNreFresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD179A6C1CE4711200A331CE /* ZHNreFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNreFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD179A701CE4711200A331CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD179A721CE4711200A331CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD179A731CE4711200A331CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD179A751CE4711200A331CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD179A761CE4711200A331CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD179A791CE4711200A331CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD179A7B1CE4711200A331CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD179A7E1CE4711200A331CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD179A801CE4711200A331CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD179A851CE4711200A331CE /* ZHNreFreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNreFreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD179A891CE4711200A331CE /* ZHNreFreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNreFreshTests.m; sourceTree = "<group>"; };
+		CD179A8B1CE4711200A331CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD179A901CE4711200A331CE /* ZHNreFreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNreFreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD179A941CE4711200A331CE /* ZHNreFreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNreFreshUITests.m; sourceTree = "<group>"; };
+		CD179A961CE4711200A331CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD179A691CE4711200A331CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD179A821CE4711200A331CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD179A8D1CE4711200A331CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD179A631CE4711200A331CE = {
+			isa = PBXGroup;
+			children = (
+				CD179A6E1CE4711200A331CE /* ZHNreFresh */,
+				CD179A881CE4711200A331CE /* ZHNreFreshTests */,
+				CD179A931CE4711200A331CE /* ZHNreFreshUITests */,
+				CD179A6D1CE4711200A331CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD179A6D1CE4711200A331CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD179A6C1CE4711200A331CE /* ZHNreFresh.app */,
+				CD179A851CE4711200A331CE /* ZHNreFreshTests.xctest */,
+				CD179A901CE4711200A331CE /* ZHNreFreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD179A6E1CE4711200A331CE /* ZHNreFresh */ = {
+			isa = PBXGroup;
+			children = (
+				CD179A721CE4711200A331CE /* AppDelegate.h */,
+				CD179A731CE4711200A331CE /* AppDelegate.m */,
+				CD179A751CE4711200A331CE /* ViewController.h */,
+				CD179A761CE4711200A331CE /* ViewController.m */,
+				CD179A781CE4711200A331CE /* Main.storyboard */,
+				CD179A7B1CE4711200A331CE /* Assets.xcassets */,
+				CD179A7D1CE4711200A331CE /* LaunchScreen.storyboard */,
+				CD179A801CE4711200A331CE /* Info.plist */,
+				CD179A6F1CE4711200A331CE /* Supporting Files */,
+			);
+			path = ZHNreFresh;
+			sourceTree = "<group>";
+		};
+		CD179A6F1CE4711200A331CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD179A701CE4711200A331CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD179A881CE4711200A331CE /* ZHNreFreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD179A891CE4711200A331CE /* ZHNreFreshTests.m */,
+				CD179A8B1CE4711200A331CE /* Info.plist */,
+			);
+			path = ZHNreFreshTests;
+			sourceTree = "<group>";
+		};
+		CD179A931CE4711200A331CE /* ZHNreFreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD179A941CE4711200A331CE /* ZHNreFreshUITests.m */,
+				CD179A961CE4711200A331CE /* Info.plist */,
+			);
+			path = ZHNreFreshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD179A6B1CE4711200A331CE /* ZHNreFresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD179A991CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFresh" */;
+			buildPhases = (
+				CD179A681CE4711200A331CE /* Sources */,
+				CD179A691CE4711200A331CE /* Frameworks */,
+				CD179A6A1CE4711200A331CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHNreFresh;
+			productName = ZHNreFresh;
+			productReference = CD179A6C1CE4711200A331CE /* ZHNreFresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD179A841CE4711200A331CE /* ZHNreFreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD179A9C1CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFreshTests" */;
+			buildPhases = (
+				CD179A811CE4711200A331CE /* Sources */,
+				CD179A821CE4711200A331CE /* Frameworks */,
+				CD179A831CE4711200A331CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD179A871CE4711200A331CE /* PBXTargetDependency */,
+			);
+			name = ZHNreFreshTests;
+			productName = ZHNreFreshTests;
+			productReference = CD179A851CE4711200A331CE /* ZHNreFreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD179A8F1CE4711200A331CE /* ZHNreFreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD179A9F1CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFreshUITests" */;
+			buildPhases = (
+				CD179A8C1CE4711200A331CE /* Sources */,
+				CD179A8D1CE4711200A331CE /* Frameworks */,
+				CD179A8E1CE4711200A331CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD179A921CE4711200A331CE /* PBXTargetDependency */,
+			);
+			name = ZHNreFreshUITests;
+			productName = ZHNreFreshUITests;
+			productReference = CD179A901CE4711200A331CE /* ZHNreFreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD179A641CE4711200A331CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhn;
+				TargetAttributes = {
+					CD179A6B1CE4711200A331CE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD179A841CE4711200A331CE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD179A6B1CE4711200A331CE;
+					};
+					CD179A8F1CE4711200A331CE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD179A6B1CE4711200A331CE;
+					};
+				};
+			};
+			buildConfigurationList = CD179A671CE4711200A331CE /* Build configuration list for PBXProject "ZHNreFresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD179A631CE4711200A331CE;
+			productRefGroup = CD179A6D1CE4711200A331CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD179A6B1CE4711200A331CE /* ZHNreFresh */,
+				CD179A841CE4711200A331CE /* ZHNreFreshTests */,
+				CD179A8F1CE4711200A331CE /* ZHNreFreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD179A6A1CE4711200A331CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD179A7F1CE4711200A331CE /* LaunchScreen.storyboard in Resources */,
+				CD179A7C1CE4711200A331CE /* Assets.xcassets in Resources */,
+				CD179A7A1CE4711200A331CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD179A831CE4711200A331CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD179A8E1CE4711200A331CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD179A681CE4711200A331CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD179A771CE4711200A331CE /* ViewController.m in Sources */,
+				CD179A741CE4711200A331CE /* AppDelegate.m in Sources */,
+				CD179A711CE4711200A331CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD179A811CE4711200A331CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD179A8A1CE4711200A331CE /* ZHNreFreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD179A8C1CE4711200A331CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD179A951CE4711200A331CE /* ZHNreFreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD179A871CE4711200A331CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD179A6B1CE4711200A331CE /* ZHNreFresh */;
+			targetProxy = CD179A861CE4711200A331CE /* PBXContainerItemProxy */;
+		};
+		CD179A921CE4711200A331CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD179A6B1CE4711200A331CE /* ZHNreFresh */;
+			targetProxy = CD179A911CE4711200A331CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD179A781CE4711200A331CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD179A791CE4711200A331CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD179A7D1CE4711200A331CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD179A7E1CE4711200A331CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD179A971CE4711200A331CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD179A981CE4711200A331CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD179A9A1CE4711200A331CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNreFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNreFresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD179A9B1CE4711200A331CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNreFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNreFresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD179A9D1CE4711200A331CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNreFreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNreFreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNreFresh.app/ZHNreFresh";
+			};
+			name = Debug;
+		};
+		CD179A9E1CE4711200A331CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNreFreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNreFreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNreFresh.app/ZHNreFresh";
+			};
+			name = Release;
+		};
+		CD179AA01CE4711200A331CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNreFreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNreFreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNreFresh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD179AA11CE4711200A331CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNreFreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNreFreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNreFresh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD179A671CE4711200A331CE /* Build configuration list for PBXProject "ZHNreFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD179A971CE4711200A331CE /* Debug */,
+				CD179A981CE4711200A331CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD179A991CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD179A9A1CE4711200A331CE /* Debug */,
+				CD179A9B1CE4711200A331CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD179A9C1CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD179A9D1CE4711200A331CE /* Debug */,
+				CD179A9E1CE4711200A331CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD179A9F1CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD179AA01CE4711200A331CE /* Debug */,
+				CD179AA11CE4711200A331CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD179A641CE4711200A331CE /* Project object */;
+}
