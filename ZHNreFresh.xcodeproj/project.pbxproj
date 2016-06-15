@@ -110,16 +110,13 @@
 		CD179A6E1CE4711200A331CE /* ZHNreFresh */ = {
 			isa = PBXGroup;
 			children = (
+				CD8C71BC1D11064C00C7AB5C /* zhnRefresh */,
 				CD179A721CE4711200A331CE /* AppDelegate.h */,
 				CD179A731CE4711200A331CE /* AppDelegate.m */,
 				CD179A751CE4711200A331CE /* ViewController.h */,
 				CD179A761CE4711200A331CE /* ViewController.m */,
 				CD179AA21CE4715100A331CE /* ZHNceshiVC.h */,
 				CD179AA31CE4715100A331CE /* ZHNceshiVC.m */,
-				CD179AA81CE472FB00A331CE /* zhnFreshHeadrView.h */,
-				CD179AA91CE472FB00A331CE /* zhnFreshHeadrView.m */,
-				CD179AA51CE4721200A331CE /* UIScrollView+ZHNfresh.h */,
-				CD179AA61CE4721200A331CE /* UIScrollView+ZHNfresh.m */,
 				CD179A781CE4711200A331CE /* Main.storyboard */,
 				CD179A7B1CE4711200A331CE /* Assets.xcassets */,
 				CD179A7D1CE4711200A331CE /* LaunchScreen.storyboard */,
@@ -153,6 +150,17 @@
 				CD179A961CE4711200A331CE /* Info.plist */,
 			);
 			path = ZHNreFreshUITests;
+			sourceTree = "<group>";
+		};
+		CD8C71BC1D11064C00C7AB5C /* zhnRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CD179AA81CE472FB00A331CE /* zhnFreshHeadrView.h */,
+				CD179AA91CE472FB00A331CE /* zhnFreshHeadrView.m */,
+				CD179AA51CE4721200A331CE /* UIScrollView+ZHNfresh.h */,
+				CD179AA61CE4721200A331CE /* UIScrollView+ZHNfresh.m */,
+			);
+			name = zhnRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -514,6 +522,7 @@
 				CD179A9B1CE4711200A331CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD179A9C1CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFreshTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				CD179A9E1CE4711200A331CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD179A9F1CE4711200A331CE /* Build configuration list for PBXNativeTarget "ZHNreFreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				CD179AA11CE4711200A331CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
